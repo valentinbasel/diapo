@@ -1,0 +1,72 @@
+inicio
+======
+
+DIAPO
+-----
+
+Diapo es un software para la creación de archivos SVG que se pueden 
+utilizar como una forma relativamente facil y rapida de hacer presentaciones
+basadas en el plugin 'SOZI' para inkscape.
+
+Diapo2
+======
+
+Caracteristicas
+---------------
+
+El sistema permite tener subtitulos y la capacidad de hacer 
+listas simples
+
+**listas**
+
+- Lista 1.
+- Lista 2.
+- Lista 3.
+- en esta lista podemos agregar parrafos grandes, sin embargo no permite
+  (todavia) armar sub listas.
+
+imagenes
+========
+
+Imagenes
+---------
+
+.. image:: img/astrolabio.jpg
+   :width: 600 px
+   :height: 400px
+
+SVG
+===
+
+SVG
+---
+
+El archivo resultante es un archivo SVG (standar vector graphic)
+el cual puede ser editado con inkscape y reproducido en cualquier 
+navegador moderno (firefox, google chrome).
+De esta forma, la creación de presentaciones es relativamente sencilla
+aunque no permite muchas alternativas, es mas bien un sistema para poder
+hacer presentaciones rapidamente.
+
+TODO
+====
+
+Para hacer:
+-----------
+
+- Coloreado de codigo fuente.
+- Creación de templates.
+- Opción para el armado de un esqueleto inicial con las imagenes
+  pre seleccionadas en una carpeta.
+- Las comillas dobles no funcionan, hay que usar '.
+- El manejo de errores es muy 'espartano', no te dice casi nada el
+  sistema cuando hay errores.
+
+fin
+===
+
+Fin
+---
+
+FIN
+---
