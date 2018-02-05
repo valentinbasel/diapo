@@ -4,6 +4,7 @@
   <rect fill="rgb(255,255,255)" height="600px" id="0" stroke="black" stroke-width="0" width="800px" x="810" y="0"/>
   <rect fill="rgb(255,255,255)" height="600px" id="0rec" stroke="black" stroke-width="0" width="800px" x="810" y="0"/>
   <image height="600px" width="800px" x="810" xlink:href="img/fondo.svg" y="0"/>
+  <image height="600px" width="800px" x="810" xlink:href="img/fondo.svg" y="0"/>
   <text>
     <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="900" y="70">DIAPO</tspan>
   </text>
@@ -22,6 +23,7 @@
   <text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="330"/>
   <rect fill="rgb(255,255,255)" height="600px" id="1" stroke="black" stroke-width="0" width="800px" x="1620" y="0"/>
   <rect fill="rgb(255,255,255)" height="600px" id="1rec" stroke="black" stroke-width="0" width="800px" x="1620" y="0"/>
+  <image height="600px" width="800px" x="1620" xlink:href="img/fondo.svg" y="0"/>
   <image height="600px" width="800px" x="1620" xlink:href="img/fondo.svg" y="0"/>
   <text>
     <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="1710" y="70">Caracteristicas</tspan>
@@ -65,6 +67,7 @@
   <rect fill="rgb(255,255,255)" height="600px" id="2" stroke="black" stroke-width="0" width="800px" x="2430" y="0"/>
   <rect fill="rgb(255,255,255)" height="600px" id="2rec" stroke="black" stroke-width="0" width="800px" x="2430" y="0"/>
   <image height="600px" width="800px" x="2430" xlink:href="img/fondo.svg" y="0"/>
+  <image height="600px" width="800px" x="2430" xlink:href="img/fondo.svg" y="0"/>
   <text>
     <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="2520" y="70">Imagenes</tspan>
   </text>
@@ -72,9 +75,10 @@
     <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="2520" y="120">
 </tspan>
   </text>
-  <image height="400" width="600" x="2540" xlink:href="img/astrolabio.jpg" y="120"/>
+  <image height="400" width="600" x="2480" xlink:href="img/astrolabio.jpg" y="120"/>
   <rect fill="rgb(255,255,255)" height="600px" id="3" stroke="black" stroke-width="0" width="800px" x="3240" y="0"/>
   <rect fill="rgb(255,255,255)" height="600px" id="3rec" stroke="black" stroke-width="0" width="800px" x="3240" y="0"/>
+  <image height="600px" width="800px" x="3240" xlink:href="img/fondo.svg" y="0"/>
   <image height="600px" width="800px" x="3240" xlink:href="img/fondo.svg" y="0"/>
   <text>
     <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="3330" y="70">SVG</tspan>
@@ -97,6 +101,7 @@
   <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="390"/>
   <rect fill="rgb(255,255,255)" height="600px" id="4" stroke="black" stroke-width="0" width="800px" x="4050" y="0"/>
   <rect fill="rgb(255,255,255)" height="600px" id="4rec" stroke="black" stroke-width="0" width="800px" x="4050" y="0"/>
+  <image height="600px" width="800px" x="4050" xlink:href="img/fondo.svg" y="0"/>
   <image height="600px" width="800px" x="4050" xlink:href="img/fondo.svg" y="0"/>
   <text>
     <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4140" y="70">Para hacer:</tspan>
@@ -135,6 +140,7 @@
   <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="400"/>
   <rect fill="rgb(255,255,255)" height="600px" id="5" stroke="black" stroke-width="0" width="800px" x="4860" y="0"/>
   <rect fill="rgb(255,255,255)" height="600px" id="5rec" stroke="black" stroke-width="0" width="800px" x="4860" y="0"/>
+  <image height="600px" width="800px" x="4860" xlink:href="img/fondo.svg" y="0"/>
   <image height="600px" width="800px" x="4860" xlink:href="img/fondo.svg" y="0"/>
   <text>
     <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="70">Fin</tspan>

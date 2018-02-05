@@ -65,7 +65,8 @@ class SvgMain(object):
 
     def add_text(self,txt,x,y,color):
         """docstring for add_text"""
-        text_style = "font-size:%ipx; font-family:%s" % (int(self.fontsize), self.fontfamily) 
+        text_style = ("font-size:%ipx; font-family:%s" % 
+                        (int(self.fontsize), self.fontfamily)) 
         cad=txt.split("\n")
         for txtsplit in cad:
             #print txtsplit
@@ -82,7 +83,8 @@ class SvgMain(object):
     def add_bold(self,txt,x,y,color):
         """docstring for add_text"""
 
-        text_style = "font-size:%ipx; font-family:%s" % (int(self.fontsize), self.fontfamily) 
+        text_style = ("font-size:%ipx; font-family:%s" % 
+                            (int(self.fontsize), self.fontfamily)) 
         svg_span = self.svg_document.text("")
         self.svg_document.add(svg_span)
         svg_span.add(self.svg_document.tspan(txt, insert =
@@ -90,7 +92,8 @@ class SvgMain(object):
 
     def add_title(self,txt,x,y,color):
         """docstring for add_text"""
-        text_style = "font-size:%ipx; font-family:%s" % (int(self.fontsize*2), self.fontfamily) 
+        text_style = ("font-size:%ipx; font-family:%s" % 
+                        (int(self.fontsize*2), self.fontfamily)) 
         svg_span = self.svg_document.text("")
         self.svg_document.add(svg_span)
         svg_span.add(self.svg_document.tspan(txt, insert =

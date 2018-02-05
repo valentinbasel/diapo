@@ -32,6 +32,7 @@ class Diapo(object):
         self.fontsize=int(conf["fontsize"])
         self.background=conf["background"]
         self.backgroundimg=conf["backgroundimg"]
+        self.backgroundimg2=conf["backgroundimg2"]
         self.fontfamily=conf["fontfamily"]
         self.titlefontcolor=conf["titlefontcolor"]
         self.SVG=SvgMain(
@@ -53,6 +54,7 @@ class Diapo(object):
         self.SVG.add_rect(self.x,self.y,self.id_diapo)
         self.SVG.add_rect(self.x,self.y,str(self.id_diapo)+"rec")
         self.SVG.add_background_image(self.x,self.y,self.backgroundimg)
+        self.SVG.add_background_image(self.x,self.y,self.backgroundimg2)
         self.dat_ns1.append((self.id_diapo,self.id_diapo,namediapo))
         self.id_diapo+=1
         self.ytxt=self.fontsize+self.marginy
