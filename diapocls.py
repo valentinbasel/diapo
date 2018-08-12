@@ -71,13 +71,40 @@ class Diapo(object):
         yimgend=yimg[1].replace("height: ","")
         yimgend=yimgend.replace("px","")        
         yimgend=yimgend.replace(" ","")
-
+        if src.find("video::")>-1:
+            self.video(img)
+            return 0
         self.SVG.add_image( self.x+self.marginx,
                             self.y+self.ytxt+self.marginy-110,
                             int(ximgend),
                             int(yimgend),
                             src)
         self.ytxt+=int(yimgend)+self.marginy+self.fontsize
+
+    def video(self,img):
+        src=img[1][1]
+        style=img[2][1]
+        ximg=style.split(";")
+        ximgend=ximg[0].replace("width: ","")
+        ximgend=ximgend.replace("px","")        
+        ximgend=ximgend.replace(" ","")
+        yimg=style.split(";")
+        yimgend=yimg[1].replace("height: ","")
+        yimgend=yimgend.replace("px","")        
+        yimgend=yimgend.replace(" ","")
+        src1=src.split("video::")
+        src_v=src1[1]
+        #print src_v
+        #print int(ximgend),"---",int(yimgend)
+        #print self.x+self.marginx
+        #print self.y+self.ytxt+self.marginy-110,
+        self.SVG.add_video( self.x+self.marginx,
+                            self.y+self.ytxt+self.marginy-110,
+                            int(ximgend),
+                            int(yimgend),
+                            src_v)
+
+
 
     def text(self,text):
         """docstring for fname"""

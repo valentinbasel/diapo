@@ -29,6 +29,27 @@ class SvgMain(object):
         self.svg_document = svgwrite.Drawing('',size = (w, h))
         self.yfont=self.fontsize+100
         self.xfont=0
+        self.video_cad= []
+
+    def add_video(self,x,y,w,h,img):
+        vid=['<g transform="translate(', '' ,',', '',') scale(1,1)">',
+                '<foreignObject x="', '','" y="', '' ,'" width="',  '',  '" height="',  '', '" >'
+                ,'<iframe xmlns="http://www.w3.org/1999/xhtml" width="'  ,'0', '" height="' ,'0' ,'" src="',  
+                '','" frameborder="0"  allowfullscreen="true"></iframe> </foreignObject> </g>'
+                ]
+        vid[1]=str(x+50)
+        vid[3]=str(y+90)
+        vid[6]=str(0)
+        vid[8]=str(0)
+        vid[10]=str(w)
+        vid[12]=str(h)
+        vid[15]=str(w)
+        vid[17]=str(h)
+        vid[19]=img+'?rel=0'
+        cad2=""
+        for cad in vid:
+            cad2=cad2+cad
+        self.video_cad.append(cad2)
 
     def add_image(self,x,y,w,h,img):
         """docstring for fname"""
@@ -138,11 +159,17 @@ class SvgMain(object):
     def save_svg(self,namesvg,dat_ns1):
         """docstring for save_svg"""
         self.prepare_xml()
+        cad_vid_src=""
+        for cad_vid in self.video_cad:
+            cad_vid_src=cad_vid_src+cad_vid
         for idrect,idiapo,namediapo in dat_ns1: 
             self.add_ns1(idrect,idiapo,namediapo)
         cad=str( ET.tostring(self.xml_content))
         reparsed = minidom.parseString(cad)
+        
         doc=reparsed.toprettyxml(indent="  ")
+        c1=doc.split('<script>')
+        doc=c1[0]+ cad_vid_src+'<script>'+c1[1]
         file=open(namesvg,"w")
         file.write(doc.encode('utf-8'))
         file.close()

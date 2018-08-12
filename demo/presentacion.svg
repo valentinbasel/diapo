@@ -104,75 +104,109 @@
   <image height="600px" width="800px" x="4050" xlink:href="img/fondo.svg" y="0"/>
   <image height="600px" width="800px" x="4050" xlink:href="img/fondo.svg" y="0"/>
   <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4140" y="70">Para hacer:</tspan>
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4140" y="70">Videos</tspan>
   </text>
   <text>
     <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4140" y="120">
 </tspan>
   </text>
-  <circle cx="4110" cy="133" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="140">Coloreado de codigo fuente.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="145"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="165"/>
-  <circle cx="4110" cy="163" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="170">Creación de templates.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="175"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="195"/>
-  <circle cx="4110" cy="193" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="200">Opción para el armado de un esqueleto inicial con las imagenes</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="220">pre seleccionadas en una carpeta.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="225"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="245"/>
-  <circle cx="4110" cy="243" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="250">Las comillas dobles no funcionan, hay que usar '.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="255"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="275"/>
-  <circle cx="4110" cy="273" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="280">El manejo de errores es muy 'espartano', no te dice casi nada el</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="300">sistema cuando hay errores.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="305"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="325"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="330"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="350"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="355"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="375"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="380"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4120" y="400"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="140">El sistema soporta insertar videos (locales o url), sin embargo la</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="160">opción de autoplay esta activada y todos los videos que esten en</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="180">DIAPO se van a ejecutar ni bien se inicie la presentación.</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="200">se puede deshabilitar autoplay, desde firefox.</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="220">yendo la pagina de config y buscar la opción autoplay para pnerla en</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="240">false</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="270"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="290"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="320"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="340"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="370"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="390"/>
   <rect fill="rgb(255,255,255)" height="600px" id="5" stroke="black" stroke-width="0" width="800px" x="4860" y="0"/>
   <rect fill="rgb(255,255,255)" height="600px" id="5rec" stroke="black" stroke-width="0" width="800px" x="4860" y="0"/>
   <image height="600px" width="800px" x="4860" xlink:href="img/fondo.svg" y="0"/>
   <image height="600px" width="800px" x="4860" xlink:href="img/fondo.svg" y="0"/>
   <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="70">Fin</tspan>
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="70">Videos</tspan>
   </text>
   <text>
     <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="120">
 </tspan>
   </text>
+  <rect fill="rgb(255,255,255)" height="600px" id="6" stroke="black" stroke-width="0" width="800px" x="5670" y="0"/>
+  <rect fill="rgb(255,255,255)" height="600px" id="6rec" stroke="black" stroke-width="0" width="800px" x="5670" y="0"/>
+  <image height="600px" width="800px" x="5670" xlink:href="img/fondo.svg" y="0"/>
+  <image height="600px" width="800px" x="5670" xlink:href="img/fondo.svg" y="0"/>
   <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="170">
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="5760" y="70">Para hacer:</tspan>
+  </text>
+  <text>
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="5760" y="120">
+</tspan>
+  </text>
+  <circle cx="5730" cy="133" fill="#000041" r="5" stroke-width="0"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="140">Coloreado de codigo fuente.</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="145"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="165"/>
+  <circle cx="5730" cy="163" fill="#000041" r="5" stroke-width="0"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="170">Creación de templates.</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="175"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="195"/>
+  <circle cx="5730" cy="193" fill="#000041" r="5" stroke-width="0"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="200">Opción para el armado de un esqueleto inicial con las imagenes</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="220">pre seleccionadas en una carpeta.</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="225"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="245"/>
+  <circle cx="5730" cy="243" fill="#000041" r="5" stroke-width="0"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="250">Las comillas dobles no funcionan, hay que usar '.</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="255"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="275"/>
+  <circle cx="5730" cy="273" fill="#000041" r="5" stroke-width="0"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="280">El manejo de errores es muy 'espartano', no te dice casi nada el</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="300">sistema cuando hay errores.</text>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="305"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="325"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="330"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="350"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="355"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="375"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="380"/>
+  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="400"/>
+  <rect fill="rgb(255,255,255)" height="600px" id="7" stroke="black" stroke-width="0" width="800px" x="6480" y="0"/>
+  <rect fill="rgb(255,255,255)" height="600px" id="7rec" stroke="black" stroke-width="0" width="800px" x="6480" y="0"/>
+  <image height="600px" width="800px" x="6480" xlink:href="img/fondo.svg" y="0"/>
+  <image height="600px" width="800px" x="6480" xlink:href="img/fondo.svg" y="0"/>
+  <text>
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="70">FIN</tspan>
+  </text>
+  <text>
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="120">
 </tspan>
   </text>
   <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="220">FIN</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="270">
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="170">
 </tspan>
   </text>
   <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="320">
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="220">FIN</tspan>
+  </text>
+  <text>
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="270">
 </tspan>
   </text>
   <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="370">
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="320">
 </tspan>
   </text>
   <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="420">
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="370">
 </tspan>
   </text>
-  <script>
+  <text>
+    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="420">
+</tspan>
+  </text>
+  <g transform="translate(4950,120) scale(1,1)"><foreignObject x="0" y="0" width="600" height="400" ><iframe xmlns="http://www.w3.org/1999/xhtml" width="600" height="400" src="vid/bipedo.webm?rel=0" frameborder="0"  allowfullscreen="true"></iframe> </foreignObject> </g><script>
 <![CDATA[/*
  * Sozi - A presentation tool using the SVG standard
  *
@@ -2936,6 +2970,8 @@ namespace(this, "sozi.player", function (exports, window) {
   <ns1:frame id="frameDiapo2" ns1:clip="true" ns1:hide="true" ns1:refid="1" ns1:sequence="1" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="Diapo2" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
   <ns1:frame id="frameimagenes" ns1:clip="true" ns1:hide="true" ns1:refid="2" ns1:sequence="2" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="imagenes" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
   <ns1:frame id="frameSVG" ns1:clip="true" ns1:hide="true" ns1:refid="3" ns1:sequence="3" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="SVG" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
-  <ns1:frame id="frameTODO" ns1:clip="true" ns1:hide="true" ns1:refid="4" ns1:sequence="4" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="TODO" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
-  <ns1:frame id="framefin" ns1:clip="true" ns1:hide="true" ns1:refid="5" ns1:sequence="5" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="fin" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
+  <ns1:frame id="framevideo1" ns1:clip="true" ns1:hide="true" ns1:refid="4" ns1:sequence="4" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="video1" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
+  <ns1:frame id="framevideo" ns1:clip="true" ns1:hide="true" ns1:refid="5" ns1:sequence="5" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="video" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
+  <ns1:frame id="frameTODO" ns1:clip="true" ns1:hide="true" ns1:refid="6" ns1:sequence="6" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="TODO" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
+  <ns1:frame id="framefin" ns1:clip="true" ns1:hide="true" ns1:refid="7" ns1:sequence="7" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="fin" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
 </svg>

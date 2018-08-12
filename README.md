@@ -20,3 +20,11 @@ donde:
 -c : Configuracion de la presentación.
 -s : Archivo RST con las presentaciones.
 -f : El resultado final de la creación de la presentación.
+
+# Instalación
+
+Es relativamente simple de instalar en Fedora.
+Requerimientos:
+
+dnf install docutils
+dnf install python2-svgwrite

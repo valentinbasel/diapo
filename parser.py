@@ -34,11 +34,21 @@ class HTMLParserModule(HTMLParser.HTMLParser):
     def handle_data(self, data):
         start=self.tag
         #print start
+       # if start=="pre" and self.endtag=="pre":
+        #    print "encontre el video y me preparo a parsearlo"
+         #   print data
+
+
+
+           # self.endtag==""
+           # return
+
         if start=="h2":
         #    if data <>"\n":
             self.diapo.title(data)
             return
         if start=="img" and self.endtag=="img":
+            #print self.attrs 
             self.diapo.image(self.attrs)
             self.endtag==""
             return
@@ -84,7 +94,7 @@ class ParserGenerator(HTMLParserModule,HTMLRstTranslator):
     def parsed_diapo(self,txt):
         """docstring for fname"""
         cad= self.reST_to_html(txt)
-        print cad
+        #print cad
         parsed = self.htmltag(self.diapo)
         parsed.feed(cad)
         #print help(parsed.feed)

@@ -35,6 +35,7 @@ Imagenes
    :width: 600 px
    :height: 400px
 
+
 SVG
 ===
 
@@ -47,6 +48,28 @@ navegador moderno (firefox, google chrome).
 De esta forma, la creación de presentaciones es relativamente sencilla
 aunque no permite muchas alternativas, es mas bien un sistema para poder
 hacer presentaciones rapidamente.
+
+video1
+======
+
+Videos
+------
+El sistema soporta insertar videos (locales o url), sin embargo la 
+opción de autoplay esta activada y todos los videos que esten en
+DIAPO se van a ejecutar ni bien se inicie la presentación.
+se puede deshabilitar autoplay, desde firefox.
+yendo la pagina de config y buscar la opción autoplay para pnerla en 
+false
+
+video
+=====
+
+Videos
+------
+
+.. image:: video:: vid/bipedo.webm
+    :width: 600 px
+    :height: 400
 
 TODO
 ====
@@ -65,8 +88,9 @@ Para hacer:
 fin
 ===
 
-Fin
+FIN
 ---
 
 FIN
 ---
+
