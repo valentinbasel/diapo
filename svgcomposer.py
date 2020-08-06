@@ -1,14 +1,24 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# vim:fenc=utf-8
+###############################################################################
+# svgcomposer.py
+# Copyright © 2016 valentinbasel@gmail.com
 #
-# Copyright © 2015 valentin <valentin@localhost.localdomain>
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
 #
-# Distributed under terms of the MIT license.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+###############################################################################
 
-"""
 
-"""
 import svgwrite
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
@@ -164,14 +174,12 @@ class SvgMain(object):
             cad_vid_src=cad_vid_src+cad_vid
         for idrect,idiapo,namediapo in dat_ns1: 
             self.add_ns1(idrect,idiapo,namediapo)
-        cad=str( ET.tostring(self.xml_content))
-        reparsed = minidom.parseString(cad)
-        
-        doc=reparsed.toprettyxml(indent="  ")
+        cad=ET.tostring(self.xml_content)
+        doc=cad.decode('utf-8')
         c1=doc.split('<script>')
         doc=c1[0]+ cad_vid_src+'<script>'+c1[1]
         file=open(namesvg,"w")
-        file.write(doc.encode('utf-8'))
+        file.write(doc)
         file.close()
 
 

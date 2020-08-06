@@ -1,213 +1,17 @@
-<?xml version="1.0" ?>
-<svg baseProfile="full" height="600px" version="1.1" width="800px" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ns1="http://sozi.baierouge.fr" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs/>
-  <rect fill="rgb(255,255,255)" height="600px" id="0" stroke="black" stroke-width="0" width="800px" x="810" y="0"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="0rec" stroke="black" stroke-width="0" width="800px" x="810" y="0"/>
-  <image height="600px" width="800px" x="810" xlink:href="img/fondo.svg" y="0"/>
-  <image height="600px" width="800px" x="810" xlink:href="img/fondo.svg" y="0"/>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="900" y="70">DIAPO</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="900" y="120">
-</tspan>
-  </text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="140">Diapo es un software para la creación de archivos SVG que se pueden</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="160">utilizar como una forma relativamente facil y rapida de hacer presentaciones</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="180">basadas en el plugin 'SOZI' para inkscape.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="210"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="230"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="260"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="280"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="310"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="330"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="1" stroke="black" stroke-width="0" width="800px" x="1620" y="0"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="1rec" stroke="black" stroke-width="0" width="800px" x="1620" y="0"/>
-  <image height="600px" width="800px" x="1620" xlink:href="img/fondo.svg" y="0"/>
-  <image height="600px" width="800px" x="1620" xlink:href="img/fondo.svg" y="0"/>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="1710" y="70">Caracteristicas</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="1710" y="120">
-</tspan>
-  </text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="140">El sistema permite tener subtitulos y la capacidad de hacer</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="160">listas simples</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="190"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="210"/>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:20px; font-family:arial" x="1660" y="230">listas</tspan>
-  </text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="240"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="260"/>
-  <circle cx="1680" cy="283" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="290">Lista 1.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="295"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="315"/>
-  <circle cx="1680" cy="313" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="320">Lista 2.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="325"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="345"/>
-  <circle cx="1680" cy="343" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="350">Lista 3.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="355"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="375"/>
-  <circle cx="1680" cy="373" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="380">en esta lista podemos agregar parrafos grandes, sin embargo no permite</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="400">(todavia) armar sub listas.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="405"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="425"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="430"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="450"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="455"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="475"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="480"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="500"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="2" stroke="black" stroke-width="0" width="800px" x="2430" y="0"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="2rec" stroke="black" stroke-width="0" width="800px" x="2430" y="0"/>
-  <image height="600px" width="800px" x="2430" xlink:href="img/fondo.svg" y="0"/>
-  <image height="600px" width="800px" x="2430" xlink:href="img/fondo.svg" y="0"/>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="2520" y="70">Imagenes</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="2520" y="120">
-</tspan>
-  </text>
-  <image height="400" width="600" x="2480" xlink:href="img/astrolabio.jpg" y="120"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="3" stroke="black" stroke-width="0" width="800px" x="3240" y="0"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="3rec" stroke="black" stroke-width="0" width="800px" x="3240" y="0"/>
-  <image height="600px" width="800px" x="3240" xlink:href="img/fondo.svg" y="0"/>
-  <image height="600px" width="800px" x="3240" xlink:href="img/fondo.svg" y="0"/>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="3330" y="70">SVG</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="3330" y="120">
-</tspan>
-  </text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="140">El archivo resultante es un archivo SVG (standar vector graphic)</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="160">el cual puede ser editado con inkscape y reproducido en cualquier</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="180">navegador moderno (firefox, google chrome).</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="200">De esta forma, la creación de presentaciones es relativamente sencilla</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="220">aunque no permite muchas alternativas, es mas bien un sistema para poder</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="240">hacer presentaciones rapidamente.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="270"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="290"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="320"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="340"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="370"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="390"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="4" stroke="black" stroke-width="0" width="800px" x="4050" y="0"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="4rec" stroke="black" stroke-width="0" width="800px" x="4050" y="0"/>
-  <image height="600px" width="800px" x="4050" xlink:href="img/fondo.svg" y="0"/>
-  <image height="600px" width="800px" x="4050" xlink:href="img/fondo.svg" y="0"/>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4140" y="70">Videos</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4140" y="120">
-</tspan>
-  </text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="140">El sistema soporta insertar videos (locales o url), sin embargo la</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="160">opción de autoplay esta activada y todos los videos que esten en</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="180">DIAPO se van a ejecutar ni bien se inicie la presentación.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="200">se puede deshabilitar autoplay, desde firefox.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="220">yendo la pagina de config y buscar la opción autoplay para pnerla en</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="240">false</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="270"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="290"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="320"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="340"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="370"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="390"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="5" stroke="black" stroke-width="0" width="800px" x="4860" y="0"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="5rec" stroke="black" stroke-width="0" width="800px" x="4860" y="0"/>
-  <image height="600px" width="800px" x="4860" xlink:href="img/fondo.svg" y="0"/>
-  <image height="600px" width="800px" x="4860" xlink:href="img/fondo.svg" y="0"/>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="70">Videos</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="120">
-</tspan>
-  </text>
-  <rect fill="rgb(255,255,255)" height="600px" id="6" stroke="black" stroke-width="0" width="800px" x="5670" y="0"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="6rec" stroke="black" stroke-width="0" width="800px" x="5670" y="0"/>
-  <image height="600px" width="800px" x="5670" xlink:href="img/fondo.svg" y="0"/>
-  <image height="600px" width="800px" x="5670" xlink:href="img/fondo.svg" y="0"/>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="5760" y="70">Para hacer:</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="5760" y="120">
-</tspan>
-  </text>
-  <circle cx="5730" cy="133" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="140">Coloreado de codigo fuente.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="145"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="165"/>
-  <circle cx="5730" cy="163" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="170">Creación de templates.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="175"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="195"/>
-  <circle cx="5730" cy="193" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="200">Opción para el armado de un esqueleto inicial con las imagenes</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="220">pre seleccionadas en una carpeta.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="225"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="245"/>
-  <circle cx="5730" cy="243" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="250">Las comillas dobles no funcionan, hay que usar '.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="255"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="275"/>
-  <circle cx="5730" cy="273" fill="#000041" r="5" stroke-width="0"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="280">El manejo de errores es muy 'espartano', no te dice casi nada el</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="300">sistema cuando hay errores.</text>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="305"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="325"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="330"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="350"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="355"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="375"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="380"/>
-  <text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="400"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="7" stroke="black" stroke-width="0" width="800px" x="6480" y="0"/>
-  <rect fill="rgb(255,255,255)" height="600px" id="7rec" stroke="black" stroke-width="0" width="800px" x="6480" y="0"/>
-  <image height="600px" width="800px" x="6480" xlink:href="img/fondo.svg" y="0"/>
-  <image height="600px" width="800px" x="6480" xlink:href="img/fondo.svg" y="0"/>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="70">FIN</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="120">
-</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="170">
-</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="220">FIN</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="270">
-</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="320">
-</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="370">
-</tspan>
-  </text>
-  <text>
-    <tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="420">
-</tspan>
-  </text>
-  <g transform="translate(4950,120) scale(1,1)"><foreignObject x="0" y="0" width="600" height="400" ><iframe xmlns="http://www.w3.org/1999/xhtml" width="600" height="400" src="vid/bipedo.webm?rel=0" frameborder="0"  allowfullscreen="true"></iframe> </foreignObject> </g><script>
-<![CDATA[/*
+<svg baseProfile="full" height="600px" version="1.1" width="800px" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns1="http://sozi.baierouge.fr"><defs /><rect fill="rgb(255,255,255)" height="600px" id="0" stroke="black" stroke-width="0" width="800px" x="810" y="0" /><rect fill="rgb(255,255,255)" height="600px" id="0rec" stroke="black" stroke-width="0" width="800px" x="810" y="0" /><image height="600px" width="800px" x="810" xlink:href="img/fondo.svg" y="0" /><image height="600px" width="800px" x="810" xlink:href="img/fondo.svg" y="0" /><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="900" y="70">DIAPO</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="900" y="120">
+</tspan></text><text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="140">Diapo es un software para la creaci&#243;n de archivos SVG que se pueden</text><text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="160">utilizar como una forma relativamente facil y rapida de hacer presentaciones</text><text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="180">basadas en el plugin 'SOZI' para inkscape.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="210" /><text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="230" /><text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="260" /><text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="280" /><text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="310" /><text fill="#000041" style="font-size:20px; font-family:arial" x="850" y="330" /><rect fill="rgb(255,255,255)" height="600px" id="1" stroke="black" stroke-width="0" width="800px" x="1620" y="0" /><rect fill="rgb(255,255,255)" height="600px" id="1rec" stroke="black" stroke-width="0" width="800px" x="1620" y="0" /><image height="600px" width="800px" x="1620" xlink:href="img/fondo.svg" y="0" /><image height="600px" width="800px" x="1620" xlink:href="img/fondo.svg" y="0" /><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="1710" y="70">Caracteristicas</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="1710" y="120">
+</tspan></text><text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="140">El sistema permite tener subtitulos y la capacidad de hacer</text><text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="160">listas simples</text><text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="190" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="210" /><text><tspan fill="#000041" font-weight="bold" style="font-size:20px; font-family:arial" x="1660" y="230">listas</tspan></text><text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="240" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1660" y="260" /><circle cx="1680" cy="283" fill="#000041" r="5.0" stroke-width="0" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="290">Lista 1.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="295" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="315" /><circle cx="1680" cy="313" fill="#000041" r="5.0" stroke-width="0" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="320">Lista 2.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="325" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="345" /><circle cx="1680" cy="343" fill="#000041" r="5.0" stroke-width="0" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="350">Lista 3.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="355" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="375" /><circle cx="1680" cy="373" fill="#000041" r="5.0" stroke-width="0" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="380">en esta lista podemos agregar parrafos grandes, sin embargo no permite</text><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="400">(todavia) armar sub listas.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="405" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="425" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="430" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="450" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="455" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="475" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="480" /><text fill="#000041" style="font-size:20px; font-family:arial" x="1690" y="500" /><rect fill="rgb(255,255,255)" height="600px" id="2" stroke="black" stroke-width="0" width="800px" x="2430" y="0" /><rect fill="rgb(255,255,255)" height="600px" id="2rec" stroke="black" stroke-width="0" width="800px" x="2430" y="0" /><image height="600px" width="800px" x="2430" xlink:href="img/fondo.svg" y="0" /><image height="600px" width="800px" x="2430" xlink:href="img/fondo.svg" y="0" /><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="2520" y="70">Imagenes</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="2520" y="120">
+</tspan></text><image height="400" width="600" x="2480" xlink:href="img/astrolabio.jpg" y="120" /><rect fill="rgb(255,255,255)" height="600px" id="3" stroke="black" stroke-width="0" width="800px" x="3240" y="0" /><rect fill="rgb(255,255,255)" height="600px" id="3rec" stroke="black" stroke-width="0" width="800px" x="3240" y="0" /><image height="600px" width="800px" x="3240" xlink:href="img/fondo.svg" y="0" /><image height="600px" width="800px" x="3240" xlink:href="img/fondo.svg" y="0" /><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="3330" y="70">SVG</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="3330" y="120">
+</tspan></text><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="140">El archivo resultante es un archivo SVG (standar vector graphic)</text><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="160">el cual puede ser editado con inkscape y reproducido en cualquier</text><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="180">navegador moderno (firefox, google chrome).</text><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="200">De esta forma, la creaci&#243;n de presentaciones es relativamente sencilla</text><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="220">aunque no permite muchas alternativas, es mas bien un sistema para poder</text><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="240">hacer presentaciones rapidamente.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="270" /><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="290" /><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="320" /><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="340" /><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="370" /><text fill="#000041" style="font-size:20px; font-family:arial" x="3280" y="390" /><rect fill="rgb(255,255,255)" height="600px" id="4" stroke="black" stroke-width="0" width="800px" x="4050" y="0" /><rect fill="rgb(255,255,255)" height="600px" id="4rec" stroke="black" stroke-width="0" width="800px" x="4050" y="0" /><image height="600px" width="800px" x="4050" xlink:href="img/fondo.svg" y="0" /><image height="600px" width="800px" x="4050" xlink:href="img/fondo.svg" y="0" /><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4140" y="70">Videos</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4140" y="120">
+</tspan></text><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="140">El sistema soporta insertar videos (locales o url), sin embargo la</text><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="160">opci&#243;n de autoplay esta activada y todos los videos que esten en</text><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="180">DIAPO se van a ejecutar ni bien se inicie la presentaci&#243;n.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="200">se puede deshabilitar autoplay, desde firefox.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="220">yendo la pagina de config y buscar la opci&#243;n autoplay para pnerla en</text><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="240">false</text><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="270" /><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="290" /><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="320" /><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="340" /><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="370" /><text fill="#000041" style="font-size:20px; font-family:arial" x="4090" y="390" /><rect fill="rgb(255,255,255)" height="600px" id="5" stroke="black" stroke-width="0" width="800px" x="4860" y="0" /><rect fill="rgb(255,255,255)" height="600px" id="5rec" stroke="black" stroke-width="0" width="800px" x="4860" y="0" /><image height="600px" width="800px" x="4860" xlink:href="img/fondo.svg" y="0" /><image height="600px" width="800px" x="4860" xlink:href="img/fondo.svg" y="0" /><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="70">Videos</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="4950" y="120">
+</tspan></text><rect fill="rgb(255,255,255)" height="600px" id="6" stroke="black" stroke-width="0" width="800px" x="5670" y="0" /><rect fill="rgb(255,255,255)" height="600px" id="6rec" stroke="black" stroke-width="0" width="800px" x="5670" y="0" /><image height="600px" width="800px" x="5670" xlink:href="img/fondo.svg" y="0" /><image height="600px" width="800px" x="5670" xlink:href="img/fondo.svg" y="0" /><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="5760" y="70">Para hacer:</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="5760" y="120">
+</tspan></text><circle cx="5730" cy="133" fill="#000041" r="5.0" stroke-width="0" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="140">Coloreado de codigo fuente.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="145" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="165" /><circle cx="5730" cy="163" fill="#000041" r="5.0" stroke-width="0" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="170">Creaci&#243;n de templates.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="175" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="195" /><circle cx="5730" cy="193" fill="#000041" r="5.0" stroke-width="0" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="200">Opci&#243;n para el armado de un esqueleto inicial con las imagenes</text><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="220">pre seleccionadas en una carpeta.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="225" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="245" /><circle cx="5730" cy="243" fill="#000041" r="5.0" stroke-width="0" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="250">Las comillas dobles no funcionan, hay que usar '.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="255" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="275" /><circle cx="5730" cy="273" fill="#000041" r="5.0" stroke-width="0" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="280">El manejo de errores es muy 'espartano', no te dice casi nada el</text><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="300">sistema cuando hay errores.</text><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="305" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="325" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="330" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="350" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="355" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="375" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="380" /><text fill="#000041" style="font-size:20px; font-family:arial" x="5740" y="400" /><rect fill="rgb(255,255,255)" height="600px" id="7" stroke="black" stroke-width="0" width="800px" x="6480" y="0" /><rect fill="rgb(255,255,255)" height="600px" id="7rec" stroke="black" stroke-width="0" width="800px" x="6480" y="0" /><image height="600px" width="800px" x="6480" xlink:href="img/fondo.svg" y="0" /><image height="600px" width="800px" x="6480" xlink:href="img/fondo.svg" y="0" /><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="70">FIN</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="120">
+</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="170">
+</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="220">FIN</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="270">
+</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="320">
+</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="370">
+</tspan></text><text><tspan fill="#000041" font-weight="bold" style="font-size:40px; font-family:arial" x="6570" y="420">
+</tspan></text><g transform="translate(4950,120) scale(1,1)"><foreignObject x="0" y="0" width="600" height="400" ><iframe xmlns="http://www.w3.org/1999/xhtml" width="600" height="400" src="vid/bipedo.webm?rel=0" frameborder="0"  allowfullscreen="true"></iframe> </foreignObject> </g><script><![CDATA[/*
  * Sozi - A presentation tool using the SVG standard
  *
  * Copyright (C) 2010-2013 Guillaume Savaton
@@ -2904,9 +2708,7 @@ namespace(this, "sozi.player", function (exports, window) {
     @depend location.js
     @depend links.js
 */
-]]>  </script>
-  <style type="text/css">
-<![CDATA[/*
+]]></script><style type="text/css"><![CDATA[/*
  * Sozi - A presentation tool using the SVG standard
  *
  * Copyright (C) 2010-2013 Guillaume Savaton
@@ -2965,13 +2767,4 @@ namespace(this, "sozi.player", function (exports, window) {
    font-family: Verdana, sans-serif;
    font-size: 12pt;
 }
-]]>  </style>
-  <ns1:frame id="frameinicio" ns1:clip="true" ns1:hide="true" ns1:refid="0" ns1:sequence="0" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="inicio" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
-  <ns1:frame id="frameDiapo2" ns1:clip="true" ns1:hide="true" ns1:refid="1" ns1:sequence="1" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="Diapo2" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
-  <ns1:frame id="frameimagenes" ns1:clip="true" ns1:hide="true" ns1:refid="2" ns1:sequence="2" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="imagenes" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
-  <ns1:frame id="frameSVG" ns1:clip="true" ns1:hide="true" ns1:refid="3" ns1:sequence="3" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="SVG" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
-  <ns1:frame id="framevideo1" ns1:clip="true" ns1:hide="true" ns1:refid="4" ns1:sequence="4" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="video1" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
-  <ns1:frame id="framevideo" ns1:clip="true" ns1:hide="true" ns1:refid="5" ns1:sequence="5" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="video" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
-  <ns1:frame id="frameTODO" ns1:clip="true" ns1:hide="true" ns1:refid="6" ns1:sequence="6" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="TODO" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
-  <ns1:frame id="framefin" ns1:clip="true" ns1:hide="true" ns1:refid="7" ns1:sequence="7" ns1:show-in-frame-list="true" ns1:timeout-enable="false" ns1:timeout-ms="5000" ns1:title="fin" ns1:transition-duration-ms="1000" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0"/>
-</svg>
+]]></style><ns1:frame id="frameinicio" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0" ns1:transition-duration-ms="1000" ns1:timeout-ms="5000" ns1:timeout-enable="false" ns1:show-in-frame-list="true" ns1:clip="true" ns1:hide="true" ns1:sequence="0" ns1:title="inicio" ns1:refid="0" /><ns1:frame id="frameDiapo2" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0" ns1:transition-duration-ms="1000" ns1:timeout-ms="5000" ns1:timeout-enable="false" ns1:show-in-frame-list="true" ns1:clip="true" ns1:hide="true" ns1:sequence="1" ns1:title="Diapo2" ns1:refid="1" /><ns1:frame id="frameimagenes" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0" ns1:transition-duration-ms="1000" ns1:timeout-ms="5000" ns1:timeout-enable="false" ns1:show-in-frame-list="true" ns1:clip="true" ns1:hide="true" ns1:sequence="2" ns1:title="imagenes" ns1:refid="2" /><ns1:frame id="frameSVG" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0" ns1:transition-duration-ms="1000" ns1:timeout-ms="5000" ns1:timeout-enable="false" ns1:show-in-frame-list="true" ns1:clip="true" ns1:hide="true" ns1:sequence="3" ns1:title="SVG" ns1:refid="3" /><ns1:frame id="framevideo1" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0" ns1:transition-duration-ms="1000" ns1:timeout-ms="5000" ns1:timeout-enable="false" ns1:show-in-frame-list="true" ns1:clip="true" ns1:hide="true" ns1:sequence="4" ns1:title="video1" ns1:refid="4" /><ns1:frame id="framevideo" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0" ns1:transition-duration-ms="1000" ns1:timeout-ms="5000" ns1:timeout-enable="false" ns1:show-in-frame-list="true" ns1:clip="true" ns1:hide="true" ns1:sequence="5" ns1:title="video" ns1:refid="5" /><ns1:frame id="frameTODO" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0" ns1:transition-duration-ms="1000" ns1:timeout-ms="5000" ns1:timeout-enable="false" ns1:show-in-frame-list="true" ns1:clip="true" ns1:hide="true" ns1:sequence="6" ns1:title="TODO" ns1:refid="6" /><ns1:frame id="framefin" ns1:transition-path-hide="true" ns1:transition-profile="linear" ns1:transition-zoom-percent="0" ns1:transition-duration-ms="1000" ns1:timeout-ms="5000" ns1:timeout-enable="false" ns1:show-in-frame-list="true" ns1:clip="true" ns1:hide="true" ns1:sequence="7" ns1:title="fin" ns1:refid="7" /></svg>

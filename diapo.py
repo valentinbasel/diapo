@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#
+###############################################################################
 #  diapo.py
 #  
 #  Copyright 2016 valentin basel <valentinbasel@gmail.com>
@@ -21,11 +21,12 @@
 #  MA 02110-1301, USA.
 #  
 # 
+###############################################################################
 
 """
 Diapo string
 """
-import ConfigParser
+import configparser
 import argparse
 
 from diapocls import Diapo
@@ -38,55 +39,59 @@ class ConfigDiapo(object):
     def __init__(self, arg):
         super(ConfigDiapo, self).__init__()
         self.arg = arg
-        self.Config = ConfigParser.ConfigParser()
+        self.Config = configparser.ConfigParser()
         self.Config.read(self.arg)
 
-    def create_config(self,section):
+    def create_config(self, section):
         """docstring for fname"""
-        dict={}
+        dict = {}
         options = self.Config.options(section)
         for option in options:
             dict[option] = self.Config.get(section, option)
         return dict
 
+
 def main(args):
-    config_descrpt='Diapo, program from convert txt in svg sozi presentation'
-    parserarg = argparse.ArgumentParser(description= config_descrpt)
-    parserarg.add_argument('-c','--config', 
-                                help='Config file for SVG', required=True)
-    parserarg.add_argument('-s','--source', 
-                            help='File .txt with source code', required=True)
-    parserarg.add_argument('-f','--file', 
-                                help='File .svg with filename', required=True)
+    config_descrpt = 'Diapo, program from convert txt in svg sozi presentation'
+    parserarg = argparse.ArgumentParser(description=config_descrpt)
+    parserarg.add_argument('-c', '--config', 
+                           help='Config file for SVG', required=True)
+    parserarg.add_argument('-s', '--source', 
+                           help='File .txt with source code', required=True)
+    parserarg.add_argument('-f', '--file', 
+                           help='File .svg with filename', required=True)
+    parserarg.add_argument('-p', '--prepare', 
+                           help='create a template from image directory', 
+                           required=False)
     args = vars(parserarg.parse_args())
-    confile= args["config"]
-    diaposource= args["source"]
-    diaponame=args["file"]
+    confile = args["config"]
+    diaposource = args["source"]
+    diaponame = args["file"]
     if path.exists(confile) and path.isfile(confile):
         try:
-            CONFIG=ConfigDiapo(confile)
-            conf=CONFIG.create_config("general")
-            DIAPO=Diapo(conf)
-        except Exception, e:
-            print "config file ist not valid .ini file"
-            print e
+            CONFIG = ConfigDiapo(confile)
+            conf = CONFIG.create_config("general")
+            DIAPO = Diapo(conf)
+        except:
+            print("config file ist not valid .ini file")
+            #print(e)
             exit(1)
-            raise e
+            #raise e
     else:
-        print "error confif file not exist"
+        print("error confif file not exist")
         exit(1)
     if path.exists(diaposource) and path.isfile(diaposource):    
-
-        file=open(diaposource,"r")
-        txt=file.read()
+        file = open(diaposource, "r")
+        txt = file.read()
         file.close()
     else:
-        print "error, file not exist"
+        print("error, file not exist")
         exit(1)
-    gen=ParserGenerator(DIAPO)
+    gen = ParserGenerator(DIAPO)
     gen.parsed_diapo(txt)
     DIAPO.save(diaponame)
     return 0 
+
 
 if __name__ == '__main__':
     import sys

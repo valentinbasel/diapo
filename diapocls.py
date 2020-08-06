@@ -1,14 +1,22 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# vim:fenc=utf-8
+###############################################################################
+# svgcomposer 
+# Copyright © 2018 valentinbasel@gmail.com
 #
-# Copyright © 2015 valentin <valentin@localhost.localdomain>
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
 #
-# Distributed under terms of the MIT license.
-
-"""
-
-"""
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+###############################################################################
 
 from svgcomposer import SvgMain
 
@@ -48,9 +56,7 @@ class Diapo(object):
     def add(self,namediapo):
         """docstring for fname"""
         self.x=self.x+self.w+10
-
         self.y=0#self.y+self.h+10
-
         self.SVG.add_rect(self.x,self.y,self.id_diapo)
         self.SVG.add_rect(self.x,self.y,str(self.id_diapo)+"rec")
         self.SVG.add_background_image(self.x,self.y,self.backgroundimg)
@@ -94,17 +100,11 @@ class Diapo(object):
         yimgend=yimgend.replace(" ","")
         src1=src.split("video::")
         src_v=src1[1]
-        #print src_v
-        #print int(ximgend),"---",int(yimgend)
-        #print self.x+self.marginx
-        #print self.y+self.ytxt+self.marginy-110,
         self.SVG.add_video( self.x+self.marginx,
                             self.y+self.ytxt+self.marginy-110,
                             int(ximgend),
                             int(yimgend),
                             src_v)
-
-
 
     def text(self,text):
         """docstring for fname"""
@@ -115,10 +115,11 @@ class Diapo(object):
                                     self.fontcolor
                                     )
 
+
     def list_text(self,text):
         """docstring for fname"""
-        textlen=int(len(text))
-        if text<>"\n":
+        textlen = int(len(text))
+        if text != "\n":
             self.SVG.add_circle(self.x+self.marginx+20,
                             self.y+self.ytxt+self.marginy-7,
                             self.fontcolor
@@ -146,21 +147,19 @@ class Diapo(object):
     def bold(self,text):
         """docstring for fname"""
         textlen=int(len(text))
-        #print textlen*self.fontsize
         self.SVG.add_bold(  text,
                             self.x+self.marginx,
                             self.y+self.ytxt,
                             self.fontcolor
                             )
-        #self.ytxt+=self.fontsize-self.marginy
 
     def save(self,name):
         """docstring for fname"""
-        try:
-            self.SVG.save_svg(name,self.dat_ns1)
-            print "the file ",name," was created successfully."
-        except Exception, e:
-            print "save error"
-            exit(1)
-            raise e
+        #try:
+        self.SVG.save_svg(name,self.dat_ns1)
+        print("the file ",name," was created successfully.")
+        #except:
+        #    print("save error")
+        #    exit(1)
+            # raise e
 

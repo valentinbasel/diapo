@@ -1,25 +1,34 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# vim:fenc=utf-8
+###############################################################################
+# parser.py
+# Copyright © 2016 valentinbasel@gmail.com
 #
-# Copyright © 2015 valentin <valentin@localhost.localdomain>
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
 #
-# Distributed under terms of the MIT license.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+###############################################################################
 
-"""
-
-"""
 from docutils import core
 from docutils.writers.html4css1 import Writer,HTMLTranslator
-import HTMLParser
+# import HTMLParser
+from html.parser import HTMLParser
 
-
-class HTMLParserModule(HTMLParser.HTMLParser):
+class HTMLParserModule(HTMLParser):
     tag=None
     
     def __init__(self,diapo):
         """docstring for fname"""
-        HTMLParser.HTMLParser.__init__(self)
+        HTMLParser.__init__(self)
         self.diapo=diapo
 
     def handle_starttag(self, tag, attrs):
@@ -33,16 +42,6 @@ class HTMLParserModule(HTMLParser.HTMLParser):
 
     def handle_data(self, data):
         start=self.tag
-        #print start
-       # if start=="pre" and self.endtag=="pre":
-        #    print "encontre el video y me preparo a parsearlo"
-         #   print data
-
-
-
-           # self.endtag==""
-           # return
-
         if start=="h2":
         #    if data <>"\n":
             self.diapo.title(data)
@@ -55,7 +54,7 @@ class HTMLParserModule(HTMLParser.HTMLParser):
         if start=="li":
             self.diapo.list_text(data)
         if start=="h1":
-            if data <>"\n":
+            if data != "\n":
                 self.diapo.add(data)
                 return
         elif start=="p":
@@ -85,8 +84,7 @@ class ParserGenerator(HTMLParserModule,HTMLRstTranslator):
             self.diapo=diapo
             self.html_fragment_writer = Writer()
             self.html_fragment_writer.translator_class = HTMLRstTranslator
-            self.htmltag=HTMLParserModule
-            
+            self.htmltag=HTMLParserModule            
 
     def reST_to_html( self,s ):
         return core.publish_string( s, writer = self.html_fragment_writer )
@@ -94,7 +92,7 @@ class ParserGenerator(HTMLParserModule,HTMLRstTranslator):
     def parsed_diapo(self,txt):
         """docstring for fname"""
         cad= self.reST_to_html(txt)
-        #print cad
+        #print(cad)
         parsed = self.htmltag(self.diapo)
-        parsed.feed(cad)
-        #print help(parsed.feed)
+        p = parsed.feed(cad.decode("utf-8"))
+        #print (help(parsed.feed))
